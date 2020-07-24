@@ -1,0 +1,256 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    position:relative;
+}
+/* LOGIN & REGISTER */
+.main{
+    position:relative;
+    width:100%;
+    height:41.5px;
+    background-color:grey;
+}
+
+
+.left{
+    position:relative;
+    width:15%;
+    height:40px;
+    float:left;
+}
+
+.center{
+    position:relative;
+    line-height:40px;
+    width:70%;
+    height:40px;
+    float:left;
+}
+
+.right{
+    position:relative;
+    width:15%;
+    height:40px;
+    float:left;
+}
+
+.website_logo{
+    padding:2px;
+    float:left;
+}
+
+.login_div{
+    text-decoration:none;
+    float:right;
+    color:white;
+}
+
+.login{
+    text-decoration:none;
+    color:white;
+}
+
+.register{
+    text-decoration:none;
+    color:white;
+}
+/* LOGIN & REGISTER */
+
+/* SLIDER */
+.slider{
+    width:100%;
+    height:460px;
+    background-color:white;
+}
+
+.slider_images{
+    width:100%;
+    float:left;
+    position:absolute;
+}
+
+.slider_div{
+    float:left;
+    position:absolute;
+}
+/* SLIDER */
+
+/* login */
+.loginRegister{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2147483647;
+    background: #333;
+    background: rgba(255,255,255,0.8);
+    display: none;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.close{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-left: 94%;
+    position: absolute;
+    margin-top: -6%;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}
+
+.close:hover{
+    background-color:#FF6F61;
+}
+
+.login_area{
+    display:none;
+}
+
+.login_form{
+    height:auto !important;
+    margin: 100px auto;
+    width: 95%;
+    max-width: 600px;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.forgotPassword{
+    color:#FF6F61;
+    text-decoration:none;
+    margin-bottom:5px;
+    float:right;
+    /* padding:10px; */
+    /* margin:10px; */
+}
+
+.login_form input{
+    font-size:23px;
+    margin-top:10px;
+    width:550px;
+    height:50px;
+    padding:5px;
+}
+
+.login_form button{
+    font-size:23px;
+    margin-top:10px;
+    width:550px;
+    height:50px;
+    padding:5px;
+}
+
+.login_form button{
+    color:white;
+    background:#FF6F61;
+    border-style:none;
+}
+
+.login_error_label{
+    display:none;
+    color:red;
+}
+
+
+.register_area{
+    display:none;
+}
+
+.register_error_label{
+    display:none;
+    color:red;
+}
+
+
+.forgot_password_form{
+    display:none;
+    height:23% !important;
+    margin: 100px auto;
+    width: 95%;
+    max-width: 600px;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+.forgot_password_form input{
+    font-size:23px;
+    margin-top:10px;
+    width:550px;
+    height:50px;
+    padding:5px;
+}
+
+.forgot_password_form button{
+    font-size:23px;
+    margin-top:10px;
+    width:550px;
+    height:50px;
+    padding:5px;
+}
+
+.forgot_password_form button{
+    color:white;
+    background:#FF6F61;
+    border-style:none;
+}
+
+.forgot_password_error_label{
+    color:red;
+    display:none;
+}
+

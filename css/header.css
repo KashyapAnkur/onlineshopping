@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:black;
+    /* position:relative; */
+}
+
+header{
+    /* position:relative; */
+    text-align:center;
+    padding:2px;
+    font-size:19px;
+    height:5vh;
+    background-color:#FF6F61;
+    color:white;
+}
+
+.products_search{
+    /* float:left; */
+    position:relative;
+    width:600px;
+    height:37px;
+    padding:4px;
+}
+
+.search_button{
+    position:absolute;
+    margin-top:0px;
+}
+
+.search_button:hover{
+    /* background */
+}
